@@ -21,7 +21,7 @@ function TreatyPanel() {
       "medpultPathBefore",
       window.location.pathname + window.location.search
     );
-    localStorage.setItem("medpultTreatyId", treatyId);
+    localStorage.setItem("medpult-treaty-id", treatyId);
     //localStorage.setItem(localStorageDraftKey, JSON.stringify(data));
     // Переход
     const link = Scripts.getTreatyrPageCode();
