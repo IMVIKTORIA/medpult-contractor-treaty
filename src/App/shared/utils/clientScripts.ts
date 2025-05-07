@@ -43,12 +43,12 @@ async function getCountTreaty() {
 
 declare const Context: any;
 /** Получение кода страницы договора */
-function getTreatyrPageCode(): string {
+function getTreatyPageCode(): string {
   return Context.data.insurance_treaty_page_code ?? "";
 }
 
 export default {
   getTreaty,
   getCountTreaty,
-  getTreatyrPageCode,
+  getTreatyPageCode,
 };

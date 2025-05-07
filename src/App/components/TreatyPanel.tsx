@@ -22,11 +22,10 @@ function TreatyPanel() {
       window.location.pathname + window.location.search
     );
     localStorage.setItem("medpult-treaty-id", treatyId);
-    //localStorage.setItem(localStorageDraftKey, JSON.stringify(data));
-    // Переход
-    const link = Scripts.getTreatyrPageCode();
+    const link = Scripts.getTreatyPageCode();
     redirectSPA(link);
   };
+  
   /** Колонки списка */
   const columns = [
     new ListColumnData({
