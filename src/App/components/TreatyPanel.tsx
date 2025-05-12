@@ -22,6 +22,10 @@ function TreatyPanel() {
       window.location.pathname + window.location.search
     );
     localStorage.setItem("medpult-treaty-id", treatyId);
+
+    const contractId = Scripts.getContractId()
+    localStorage.setItem("medpult-treaty-insured-id-draft", contractId);
+
     const link = Scripts.getTreatyPageCode();
     redirectSPA(link);
   };

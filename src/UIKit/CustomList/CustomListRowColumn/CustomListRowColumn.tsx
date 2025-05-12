@@ -23,8 +23,8 @@ function CustomListRowColumn(props: ListColumnProps) {
     <div
       className={
         isLink
-          ? "custom-list-row-column custom-list-row-column__link"
-          : "custom-list-row-column"
+          ? "custom-list-row-column-mct custom-list-row-column-mct__link"
+          : "custom-list-row-column-mct"
       }
       style={{
         overflow: "visible",

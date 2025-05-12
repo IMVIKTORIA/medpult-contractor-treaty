@@ -101,6 +101,23 @@ const DeleteSearchItem = (
 		<path d="M16.2426 7.75827L7.75736 16.2435M16.2426 16.2435L7.75736 7.75827" stroke="#AAAAAD" stroke-width="2" stroke-linecap="round" />
 	</svg>
 )
+const Download = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M4 17V19C4 19.5304 4.21071 20.0391 4.58579 20.4142C4.96086 20.7893 5.46957 21 6 21H18C18.5304 21 19.0391 20.7893 19.4142 20.4142C19.7893 20.0391 20 19.5304 20 19V17M12 4V16M12 16L17 11M12 16L7 11"
+      stroke="#45B0E6"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);
 export default {
   /** Кнопка назад */
   ReturnButton,
@@ -110,4 +127,5 @@ export default {
 	DeleteSearchItem,
 	/** Крест */
 	Cross,
+  Download,
 };
