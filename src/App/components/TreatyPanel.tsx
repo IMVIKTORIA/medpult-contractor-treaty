@@ -22,6 +22,8 @@ function TreatyPanel() {
       window.location.pathname + window.location.search
     );
     localStorage.setItem("medpult-treaty-id", treatyId);
+    // Очистка id застрахованного
+    localStorage.removeItem("medpult-treaty-insured-id-draft");
 
     const link = Scripts.getTreatyPageCode();
     redirectSPA(link);
